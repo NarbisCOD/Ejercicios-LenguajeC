@@ -10,7 +10,7 @@ int main (){
   x=3/2+10-3; //X=(1.5+10)-3 =(11-3)=8.5 result X=8.5;(imprime 8 por el tipo de dato entero)
   z=3.0/2.0+10-3; //X=(1.5+10)=(11.5-3)=8.5 result Z=8.5;(imprime 8.5 por el tipo de dato float)
 
-  printf("%d -- %f\n", x, z); //imprime 8 - 8.5
+  printf("%d -- %f\n", x, z); // //imprime 8 -- 8.5
   printf("%d\n", DATO*3+1/2); // (4*3)+(1/2)=(12+0.5)= 12.5; imprime 12 (result 12 por el tipo de dato Entero con signo)
   printf("%d\n", 5+2-1>5);//((5+2=7)-1)=(7-1)>5= 6>5(true=1) imprime 1
   printf("%dn", 3>1 || DATO*2<1); // 3>1(true=1) || (DATO*2)<1=(4*2)<1 = 8<1 (false=0)) imprime 1
