@@ -7,7 +7,7 @@ int main (){
   int x, y=1;
   float z;
 
-  x=3/2+10-3; //X=(1+10)-3 =(11-3)=8 result X=8;
+  x=3/2+10-3; //X=(1.5+10)-3 =(11-3)=8 result X=8.5;(por el tipo de dato toma 8 entero)
   z=3.0/2.0+10-3; //X=(1.5+10)=(11.5-3)=8.5 result X=8.5;
 
   printf("%d -- %f\n", x, z); //imprime 8 - 8.5
